@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Memory/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Maui": "1.4.0"
+        },
+        "runtime": {
+          "Memory.dll": {}
+        }
+      },
+      "CommunityToolkit.Maui/1.4.0": {
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Maui.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.4.0": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Maui.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Memory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Maui/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2lBu2MwWxW/A4IbwO+O6Tt+APW7D3hMR5YKZZvNwtTjsWKkANwyCtQXO4mhtxaNi+7HjxbE0SDhCkSdnvCOXcw==",
+      "path": "communitytoolkit.maui/1.4.0",
+      "hashPath": "communitytoolkit.maui.1.4.0.nupkg.sha512"
+    },
+    "CommunityToolkit.Maui.Core/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cL9qED0I9UG/oWAuuUoM23pzKJK5f4H9JEGVlI1je5+chr8n8OTFz/xAiGhRoPoduOcgx1ffzVx5T7xVB6xLvQ==",
+      "path": "communitytoolkit.maui.core/1.4.0",
+      "hashPath": "communitytoolkit.maui.core.1.4.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory.Tests\\Memory.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory-opdracht\\Memory.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory-opdracht\\Memory.ConsoleApp.csproj",
+        "projectName": "Memory.ConsoleApp",
+        "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory-opdracht\\Memory.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory-opdracht\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj": {
+                "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj"
+              },
+              "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\REnameZometeen\\Memory.DataAccess.SQLServer.csproj": {
+                "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\REnameZometeen\\Memory.DataAccess.SQLServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory.Tests\\Memory.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory.Tests\\Memory.Tests.csproj",
+        "projectName": "Memory.Tests",
+        "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory.Tests\\Memory.Tests.csproj",
+        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory-opdracht\\Memory.ConsoleApp.csproj": {
+                "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory-opdracht\\Memory.ConsoleApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj",
+        "projectName": "Memory",
+        "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj",
+        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\REnameZometeen\\Memory.DataAccess.SQLServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\REnameZometeen\\Memory.DataAccess.SQLServer.csproj",
+        "projectName": "Memory.DataAccess.SQLServer",
+        "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\REnameZometeen\\Memory.DataAccess.SQLServer.csproj",
+        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\REnameZometeen\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj": {
+                "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

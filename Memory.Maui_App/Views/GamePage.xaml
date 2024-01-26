@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:vm="clr-namespace:Memory.Maui_App.ViewModels"
+			 x:Class="Memory.Maui_App.Views.GamePage"
+			 x:DataType="vm:GamePageViewModel" BackgroundColor="White"
+             Shell.TabBarIsVisible="False">
+
+    <Grid BackgroundColor="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <FlexLayout x:Name="CardList" Grid.Row="1" Grid.Column="1" AlignItems="Center" Wrap="Wrap"/>
+
+    </Grid>
+
+</ContentPage>

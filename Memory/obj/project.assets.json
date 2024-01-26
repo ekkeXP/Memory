@@ -1,0 +1,162 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CommunityToolkit.Maui/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.4.0"
+        },
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Maui/1.4.0": {
+      "sha512": "2lBu2MwWxW/A4IbwO+O6Tt+APW7D3hMR5YKZZvNwtTjsWKkANwyCtQXO4mhtxaNi+7HjxbE0SDhCkSdnvCOXcw==",
+      "type": "package",
+      "path": "communitytoolkit.maui/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.SourceGenerators.dll",
+        "communitytoolkit.maui.1.4.0.nupkg.sha512",
+        "communitytoolkit.maui.nuspec",
+        "icon.png",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.dll",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.xml",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.xml",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.xml",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.dll",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.xml",
+        "lib/net6.0/CommunityToolkit.Maui.dll",
+        "lib/net6.0/CommunityToolkit.Maui.xml"
+      ]
+    },
+    "CommunityToolkit.Maui.Core/1.4.0": {
+      "sha512": "cL9qED0I9UG/oWAuuUoM23pzKJK5f4H9JEGVlI1je5+chr8n8OTFz/xAiGhRoPoduOcgx1ffzVx5T7xVB6xLvQ==",
+      "type": "package",
+      "path": "communitytoolkit.maui.core/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "communitytoolkit.maui.core.1.4.0.nupkg.sha512",
+        "communitytoolkit.maui.core.nuspec",
+        "icon.png",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0/CommunityToolkit.Maui.Core.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CommunityToolkit.Maui >= 1.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj",
+      "projectName": "Memory",
+      "projectPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj",
+      "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

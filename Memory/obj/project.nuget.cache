@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AOp2iWwNc1sBge9yXH3E7ZzexYwJgiPF787tH0lgZ6ITrfngkl8+VOhhYU/sNKY08SfbuVpF6GjMJ4jlDa5Ubw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jan\\Documents\\CS_Opdrachten\\aftekenopdrachten\\memory-opdracht\\Memory-opdracht\\Memory\\Memory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jan\\.nuget\\packages\\communitytoolkit.maui\\1.4.0\\communitytoolkit.maui.1.4.0.nupkg.sha512",
+    "C:\\Users\\Jan\\.nuget\\packages\\communitytoolkit.maui.core\\1.4.0\\communitytoolkit.maui.core.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

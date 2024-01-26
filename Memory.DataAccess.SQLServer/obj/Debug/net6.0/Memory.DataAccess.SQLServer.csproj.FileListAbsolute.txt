@@ -1,0 +1,5 @@
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.DataAccess.SQLServer\obj\Debug\net6.0\Memory.DataAccess.SQLServer.csproj.AssemblyReference.cache
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.DataAccess.SQLServer\obj\Debug\net6.0\Memory.DataAccess.SQLServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.DataAccess.SQLServer\obj\Debug\net6.0\Memory.DataAccess.SQLServer.AssemblyInfoInputs.cache
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.DataAccess.SQLServer\obj\Debug\net6.0\Memory.DataAccess.SQLServer.AssemblyInfo.cs
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.DataAccess.SQLServer\obj\Debug\net6.0\Memory.DataAccess.SQLServer.csproj.CoreCompileInputs.cache

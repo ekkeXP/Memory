@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:vm="clr-namespace:Memory.Maui_App.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+			 x:Class="Memory.Maui_App.Views.UserOptionsPage"
+             Shell.TabBarIsVisible="False"
+			 x:DataType="vm:UserOptionsPageViewModel" BackgroundColor="White">
+    
+    <ContentPage.Resources>
+        <Style x:Key="InvalidEntryStyle" TargetType="Entry">
+            <Setter Property="TextColor" Value="Red" />
+        </Style>
+        <Style x:Key="ValidEntryStyle" TargetType="Entry">
+            <Setter Property="TextColor" Value="Green"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Fill" BackgroundColor="LightGray">
+        <Label Text="Settings" Scale="4" HorizontalOptions="Center" Margin="0,30,0,0" TextColor="Black"></Label>
+        <Grid Margin="0,30,0,30" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label VerticalOptions="End" HorizontalOptions="Center" Text="With how many card do you want to play?" TextColor="Black"></Label>
+            <Entry x:Name="amount" ReturnType="Next" Grid.Column="1" VerticalOptions="End" HorizontalOptions="Fill" BackgroundColor="White" Placeholder="Amount" Text="{Binding EnteredCardAmount}" >
+                <Entry.Behaviors>
+                    <toolkit:NumericValidationBehavior 
+                    InvalidStyle="{StaticResource InvalidEntryStyle}"
+                    ValidStyle="{StaticResource ValidEntryStyle}"
+                    Flags="ValidateOnValueChanged"
+                    MinimumValue="10"
+                    MaximumValue="52"
+                    MaximumDecimalPlaces="0"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Label Grid.Row="1" VerticalOptions="Start" HorizontalOptions="Center" Text="Enter your name" TextColor="Black" Margin="0,30,30,30"></Label>
+            <Entry x:Name="name" ReturnType="Send" Grid.Row="1" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Fill" BackgroundColor="White" Margin="0,30,30,30" Placeholder="Your name goes here" Text="{Binding EnteredName}" Completed="OnEntryCompleted">
+                <Entry.Behaviors>
+                    <toolkit:TextValidationBehavior 
+                    InvalidStyle="{StaticResource InvalidEntryStyle}"
+                    ValidStyle="{StaticResource ValidEntryStyle}"
+                    Flags="ValidateOnValueChanged"
+                    MinimumLength="1" />
+                </Entry.Behaviors>
+            </Entry>
+        </Grid>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" Scale="1.5" Margin="0,0,30,30" VerticalOptions="Center" Command="{Binding GoToImageUploadCommand}" Text="Edit Card Images"></Button>
+            <Button BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" Scale="1.5" Margin="30,0,0,30" VerticalOptions="Center" Clicked="OnEntryCompleted" Text="Next Page"></Button>
+        </HorizontalStackLayout>
+        
+    </StackLayout>
+
+</ContentPage>

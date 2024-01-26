@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory.ConsoleApp", "Memory-opdracht\Memory.ConsoleApp.csproj", "{87863FE6-EB4D-463C-9D23-68CB6BFDD2D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7CA3657F-C8C7-4394-A81B-D053F5FDA181}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory.Tests", "Memory.Tests\Memory.Tests.csproj", "{60517516-4563-4789-A356-3F7D190A99B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory", "Memory\Memory.csproj", "{8A6197E9-058E-4904-B88E-9DF9EECFD785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory.DataAccess.SQLServer", "REnameZometeen\Memory.DataAccess.SQLServer.csproj", "{ED0E6F32-36F6-40A1-951C-E50664B7E562}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory.Maui_App", "Memory.Maui_App\Memory.Maui_App.csproj", "{E9662A1B-0E08-48C6-B5DF-D7B50C34EBFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87863FE6-EB4D-463C-9D23-68CB6BFDD2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87863FE6-EB4D-463C-9D23-68CB6BFDD2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87863FE6-EB4D-463C-9D23-68CB6BFDD2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87863FE6-EB4D-463C-9D23-68CB6BFDD2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60517516-4563-4789-A356-3F7D190A99B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60517516-4563-4789-A356-3F7D190A99B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60517516-4563-4789-A356-3F7D190A99B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60517516-4563-4789-A356-3F7D190A99B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6197E9-058E-4904-B88E-9DF9EECFD785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6197E9-058E-4904-B88E-9DF9EECFD785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6197E9-058E-4904-B88E-9DF9EECFD785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6197E9-058E-4904-B88E-9DF9EECFD785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0E6F32-36F6-40A1-951C-E50664B7E562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0E6F32-36F6-40A1-951C-E50664B7E562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0E6F32-36F6-40A1-951C-E50664B7E562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0E6F32-36F6-40A1-951C-E50664B7E562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9662A1B-0E08-48C6-B5DF-D7B50C34EBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9662A1B-0E08-48C6-B5DF-D7B50C34EBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9662A1B-0E08-48C6-B5DF-D7B50C34EBFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E9662A1B-0E08-48C6-B5DF-D7B50C34EBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9662A1B-0E08-48C6-B5DF-D7B50C34EBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9662A1B-0E08-48C6-B5DF-D7B50C34EBFA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60517516-4563-4789-A356-3F7D190A99B2} = {7CA3657F-C8C7-4394-A81B-D053F5FDA181}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BB3EC4B-E065-4D49-860D-1B6ACB2C11C9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.Tests\obj\Debug\net6.0\Memory.Tests.csproj.AssemblyReference.cache
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.Tests\obj\Debug\net6.0\Memory.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.Tests\obj\Debug\net6.0\Memory.Tests.AssemblyInfoInputs.cache
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.Tests\obj\Debug\net6.0\Memory.Tests.AssemblyInfo.cs
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory.Tests\obj\Debug\net6.0\Memory.Tests.csproj.CoreCompileInputs.cache

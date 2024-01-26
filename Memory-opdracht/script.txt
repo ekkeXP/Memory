@@ -1,0 +1,31 @@
+﻿CREATE TABLE ToDoItems
+(
+	[Rank] INT,
+    [Naam] VARCHAR(50), 
+    [Score] INT
+);
+
+INSERT INTO ToDoItems ([Rank], [Naam], [Score]) VALUES ('1', 'Test', '2');
+
+INSERT INTO Highscores ([Rank], [Name], [Score]) VALUES
+('1' , '', '0'),
+('2' , '', '0'),
+('3' , '', '0'),
+('4' , '', '0'),
+('5' , '', '0'),
+('6' , '', '0'),
+('7' , '', '0'),
+('8' , '', '0'),
+('9' , '', '0'),
+('10', '', '0');
+
+SELECT MIN([Rank]) FROM ToDoItems Where [Score] < 1;
+Update ToDoItems
+set Rank = Rank + 1
+where Rank >= (5);
+INSERT INTO ToDoItems (Rank, naam, score)
+values ('5', 'Henk', '69');
+DELETE FROM ToDoItems where Rank > 10;
+
+SELECT * FROM ToDoItems
+ORDER BY Rank asc;

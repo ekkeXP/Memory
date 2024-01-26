@@ -1,0 +1,12 @@
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\bin\Debug\net6.0\Memory.deps.json
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\bin\Debug\net6.0\Memory.dll
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\bin\Debug\net6.0\Memory.pdb
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\Memory.csproj.AssemblyReference.cache
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\Memory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\Memory.AssemblyInfoInputs.cache
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\Memory.AssemblyInfo.cs
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\Memory.csproj.CoreCompileInputs.cache
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\Memory.dll
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\refint\Memory.dll
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\Memory.pdb
+C:\Users\Jan\Documents\CS_Opdrachten\aftekenopdrachten\memory-opdracht\Memory-opdracht\Memory\obj\Debug\net6.0\ref\Memory.dll
